@@ -1,0 +1,64 @@
+1 http://localhost/
+2 http://localhost/phpmyadmin/
+3 http://localhost/phpmyadmin/#PMAURL-1:server_sql.php?db=&table=&server=1&target=&token=659bebd027243ca4a0b12d8b66148d5c
+4 http://localhost/dashboard/phpinfo.php
+5 http://localhost/dashboard/docs/transfer-files-ftp.html
+6 http://localhost/dashboard/docs/use-sqlite.html
+7 http://localhost/conspiracy/index.html
+8 http://localhost/conspiracy/second.html
+9 http://localhost/conspiracy/third.html
+10 http://localhost/phpmyadmin/#PMAURL-1:server_engines.php?db=&table=&server=1&target=&token=659bebd027243ca4a0b12d8b66148d5c
+
+1 ::1 - - [27/Sep/2016:01:42:39 -0700] "GET / HTTP/1.1" 302 - "-" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+2 ::1 - - [27/Sep/2016:01:46:24 -0700] "GET /phpmyadmin/ HTTP/1.1" 200 9660 "-" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+2 ::1 - - [27/Sep/2016:01:46:24 -0700] "GET /phpmyadmin/version_check.php?&_nocache=1474965984702530506 HTTP/1.1" 200 39 "http://localhost/phpmyadmin/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+3 ::1 - - [27/Sep/2016:01:48:26 -0700] "GET /phpmyadmin/server_sql.php?db=&token=659bebd027243ca4a0b12d8b66148d5c&ajax_request=true&ajax_page_request=true&menuHashes=c3a73fe1&_nocache=1474966106581420773 HTTP/1.1" 200 2185 "http://localhost/phpmyadmin/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+4 ::1 - - [27/Sep/2016:01:50:39 -0700] "GET /dashboard/phpinfo.php HTTP/1.1" 200 98972 "http://localhost/dashboard/howto.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+5 ::1 - - [27/Sep/2016:01:51:33 -0700] "GET /dashboard/docs/transfer-files-ftp.html HTTP/1.1" 200 9166 "http://localhost/dashboard/howto.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+5 ::1 - - [27/Sep/2016:01:51:33 -0700] "GET /dashboard/docs/images/transfer-files-ftp/image1.png HTTP/1.1" 200 27109 "http://localhost/dashboard/docs/transfer-files-ftp.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+5 ::1 - - [27/Sep/2016:01:51:33 -0700] "GET /dashboard/docs/images/transfer-files-ftp/image2.png HTTP/1.1" 200 3016 "http://localhost/dashboard/docs/transfer-files-ftp.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+5 ::1 - - [27/Sep/2016:01:51:33 -0700] "GET /dashboard/docs/images/transfer-files-ftp/image3.png HTTP/1.1" 200 8369 "http://localhost/dashboard/docs/transfer-files-ftp.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+5 ::1 - - [27/Sep/2016:01:51:33 -0700] "GET /dashboard/docs/images/transfer-files-ftp/image4.png HTTP/1.1" 200 8333 "http://localhost/dashboard/docs/transfer-files-ftp.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+5 ::1 - - [27/Sep/2016:01:51:33 -0700] "GET /dashboard/docs/images/transfer-files-ftp/image5.png HTTP/1.1" 200 14047 "http://localhost/dashboard/docs/transfer-files-ftp.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+5 ::1 - - [27/Sep/2016:01:51:33 -0700] "GET /dashboard/docs/images/transfer-files-ftp/image6.png HTTP/1.1" 200 12395 "http://localhost/dashboard/docs/transfer-files-ftp.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+5 ::1 - - [27/Sep/2016:01:51:33 -0700] "GET /dashboard/docs/images/transfer-files-ftp/image8.png HTTP/1.1" 200 14042 "http://localhost/dashboard/docs/transfer-files-ftp.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+5 ::1 - - [27/Sep/2016:01:51:33 -0700] "GET /dashboard/docs/images/transfer-files-ftp/image7.png HTTP/1.1" 200 15963 "http://localhost/dashboard/docs/transfer-files-ftp.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+5 ::1 - - [27/Sep/2016:01:51:33 -0700] "GET /dashboard/docs/images/transfer-files-ftp/image10.png HTTP/1.1" 200 43490 "http://localhost/dashboard/docs/transfer-files-ftp.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+5 ::1 - - [27/Sep/2016:01:51:33 -0700] "GET /dashboard/docs/images/transfer-files-ftp/image9.png HTTP/1.1" 200 42045 "http://localhost/dashboard/docs/transfer-files-ftp.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+5 ::1 - - [27/Sep/2016:01:51:33 -0700] "GET /dashboard/docs/images/transfer-files-ftp/image11.png HTTP/1.1" 200 14914 "http://localhost/dashboard/docs/transfer-files-ftp.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+5 ::1 - - [27/Sep/2016:01:51:33 -0700] "GET /dashboard/images/pdf-icon.png HTTP/1.1" 200 3778 "http://localhost/dashboard/stylesheets/all.css" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+6 ::1 - - [27/Sep/2016:01:54:07 -0700] "GET /dashboard/docs/use-sqlite.html HTTP/1.1" 200 9394 "http://localhost/dashboard/howto.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+6 ::1 - - [27/Sep/2016:01:54:07 -0700] "GET /dashboard/docs/images/use-sqlite/image1.png HTTP/1.1" 200 9269 "http://localhost/dashboard/docs/use-sqlite.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+6 ::1 - - [27/Sep/2016:01:54:07 -0700] "GET /dashboard/docs/images/use-sqlite/image2.png HTTP/1.1" 200 9364 "http://localhost/dashboard/docs/use-sqlite.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+6 ::1 - - [27/Sep/2016:01:54:07 -0700] "GET /dashboard/docs/images/use-sqlite/image3.png HTTP/1.1" 200 6967 "http://localhost/dashboard/docs/use-sqlite.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+7 ::1 - - [27/Sep/2016:01:56:42 -0700] "GET /conspiracy/index.html HTTP/1.1" 200 981 "-" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+7 ::1 - - [27/Sep/2016:01:56:42 -0700] "GET /conspiracy/alien.png HTTP/1.1" 200 51920 "http://localhost/conspiracy/index.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+7 ::1 - - [27/Sep/2016:01:56:42 -0700] "GET /conspiracy/face-icon-small-smile.png HTTP/1.1" 200 636 "-" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+8 ::1 - - [27/Sep/2016:01:57:09 -0700] "GET /conspiracy/second.html HTTP/1.1" 200 1086 "http://localhost/conspiracy/index.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+8 ::1 - - [27/Sep/2016:01:57:09 -0700] "GET /conspiracy/simulation.png HTTP/1.1" 200 48901 "http://localhost/conspiracy/second.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+9 ::1 - - [27/Sep/2016:01:57:50 -0700] "GET /conspiracy/third.html HTTP/1.1" 200 934 "http://localhost/conspiracy/index.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+9 ::1 - - [27/Sep/2016:01:57:50 -0700] "GET /conspiracy/water.png HTTP/1.1" 200 32957 "http://localhost/conspiracy/third.html" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+10 ::1 - - [27/Sep/2016:01:58:26 -0700] "GET /phpmyadmin/js/whitelist.php?lang=en&db=&token=3b52e7076ce6afa8ede2c769d4603df2 HTTP/1.1" 200 498 "http://localhost/phpmyadmin/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+10 ::1 - - [27/Sep/2016:01:58:26 -0700] "GET /phpmyadmin/js/messages.php?lang=en&db=&token=3b52e7076ce6afa8ede2c769d4603df2 HTTP/1.1" 200 7394 "http://localhost/phpmyadmin/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+10 ::1 - - [27/Sep/2016:01:58:26 -0700] "POST /phpmyadmin/db_structure.php?ajax_request=1&favorite_table=1&sync_favorite_tables=1&token=3b52e7076ce6afa8ede2c769d4603df2 HTTP/1.1" 200 1344 "http://localhost/phpmyadmin/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+10 ::1 - - [27/Sep/2016:01:58:26 -0700] "GET /phpmyadmin/version_check.php?&_nocache=1474967066846371228 HTTP/1.1" 200 39 "http://localhost/phpmyadmin/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+10 ::1 - - [27/Sep/2016:01:58:29 -0700] "GET /phpmyadmin/server_engines.php?db=&token=3b52e7076ce6afa8ede2c769d4603df2&ajax_request=true&ajax_page_request=true&menuHashes=0bd9fb47&_nocache=1474967069927498942 HTTP/1.1" 200 1741 "http://localhost/phpmyadmin/" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+---------------------------------
+Monthly history:
+For number of visits each month, they can check the month of each log
+Unique visitors can be looked by the unique IP address
+Number of visits can be found by looking at each log that is different in time
+Pages can be found for the sum of all the visitors and all their visits 
+Hits are found by checking each log for when the requests start and end 
+Bandwidth can be looked at how much storage a month of logs can hold because this refers to the amount of data downloaded by all pages, files, and images
+
+Days of the month is similar in regards to the monthly history, but just checking the days of each month
+For days of the week, this can be checked by matching the server's week and the day
+For hours of the day, this can be checked by matching the server's clock hours and the logs
+
+Countries(Top 10) each country has their own set of different IPs
+Pages-URL(Top 10) looks at the most directed get request
+
+
+
